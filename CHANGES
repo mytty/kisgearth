@@ -1,0 +1,50 @@
+KisGearth - Changelog
+---------------------
+
+a summary of all changes...
+
+--
+version 0.01f
+--
+  another improvement for the AP positioning system
+  added (-s/--use-signal).
+
+--
+version 0.01e
+--
+  improved AP positioning system added (-G/--gps).
+  network color management improved; more colors available.
+  colors for the encryption states changed:
+    - AES-CCM = GREEN
+    - TKIP    = YELLOW
+    - WEP     = ORANGE
+    - None    = RED
+  added some more encryption information parsing.
+  you should take a close look at the "popups"
+  in googleearth for an encrypted network ;)
+
+--
+version 0.01d
+--
+  improved ssid name encoding.
+  thx to "Tilman Bender" <Tilman.Bender@gmx.de>
+  for reporting an issue which occurs if there are
+  metacharacters in the SSID.
+
+--
+version 0.01c
+--
+  removed the unneeded use statement for the switch package.
+  added some comments to the source.
+  added a patch from "Shenk, Jerry A"
+  <jshenk@decommunications.com> which 
+  should fix the division through zero problem 
+  which could occur if the given coordinates
+  are not consistent.
+
+--
+version 0.01b
+--
+  this is the first public release.
+  it is for testing purpose only!
+  state of the code: major development.
